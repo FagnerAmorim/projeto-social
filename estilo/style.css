@@ -13,8 +13,8 @@ body {
 }
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
-    background-size: auto;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;/*imagem de fundo madeira carregado pela propriedade background, propriedade no-repeat é para a imagem não ser transmitida de forma repetitiva e a propriedade top e center é para a imagem iniciar por esses parametros*/
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -24,15 +24,15 @@ main {
 }
 
 section#telefone {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;/*posição centralizada*/
+    top: 50%;/*medida percentual para deixar o conteudo centralizado na medida necessaria através do topo*/
+    left: 50%;/*medida percentual para deixar o conteudo centralizado na medida necessaria através do lado esquerdo*/
+    transform: translate(-50%, -50%);/*transformação para reverter as dimensoes top e left para centralizar na medida correta a propriedade do elemento*/
     
-    height: 627px;
-    width: 311px;
+    height: 627px;/*altura*/
+    width: 311px;/*largura*/
     
-    background: url(../imagens/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat;/*imagem do iphone carregado pela propriedade background, propriedade no-repeat é para a imagem não ser transmitida de forma repetitiva*/
 }
 
 iframe#tela {
