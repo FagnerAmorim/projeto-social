@@ -73,7 +73,7 @@ section#redes-sociais img:hover {
     background: url(../imagens/frame-iphone.png) no-repeat;/*imagem do iphone carregado pela propriedade background, propriedade no-repeat é para a imagem não ser transmitida de forma repetitiva*/
     background-size: 260px 510px;
     
-}
+}/*configurações do telefone em pequenas telas via media query*/
 
 iframe#tela {
     position: absolute;
@@ -81,5 +81,5 @@ iframe#tela {
     left: 19px;
     width: 222px;
     height: 382px;
-}/*configurações do iframe da tela do celular, ajustes conforme medida do corpo da tela*/
+}/*configurações do iframe da tela do celular, ajustes conforme medida do corpo da tela via media query*/
 }
